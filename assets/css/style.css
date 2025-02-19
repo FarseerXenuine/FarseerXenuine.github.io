@@ -13,7 +13,7 @@ body {
 :root {
   /* --e-global-color-primary: #242b44; */
   --e-global-color-secondary: #000000;
-  --e-global-color-accent: #4aa5f0;
+  --e-global-color-accent: #99ccf7;
   --e-global-color-text: #000;
   --e-global-color-hover: #4AA5F0;
   --e-global-color-dark-blue: #F9FAFB;
@@ -36,13 +36,13 @@ html {
   text-align: center !important;
 }
 
-.home-banner-text h5 {
-  color: var(--e-global-color-accent);
+.home-banner-text h1 {
   font-family: 'Orbitron', sans-serif;
 }
 
-.our-services-section {
-  background: var(--e-global-color-dark-blue);
+.home-banner-text h5 {
+  color: var(--e-global-color-accent);
+  font-family: 'Orbitron', sans-serif;
 }
 
 .contact {
@@ -255,8 +255,16 @@ a {
   padding: 26px 298px 24px 350px;
 }
 
-.home-banner-section .banner-container-box .home-banner-text {
-  padding-left: 342px;
+.banner-section .banner-container-box .banner-text {
+  padding-left: 0;
+  text-align: center;
+}
+
+.banner-section {
+    height: 380px;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .home-header-section .main-header .navbar-collapse .navbar-nav li a {
@@ -276,35 +284,6 @@ a {
 
 .home-header-section .main-header .navbar-collapse .btn-talk {
   margin-left: 25px !important;
-}
-
-.banner-container-box .social-icons {
-  z-index: 1;
-  transition: ease-in-out 0.3s;
-  left: 88px;
-  top: 78px;
-}
-
-.home-banner-section .banner-container-box .social-icons ul li .social-networks {
-  font-size: 16px;
-  margin-top: 20px;
-  color: var(--e-global-color-secondary);
-  background: var(--e-global-color-primary);
-  border-radius: 10px;
-  line-height: 48px !important;
-  text-align: center;
-  transition: all ease-in-out 0.3s;
-  width: 50px;
-  height: 50px;
-  line-height: 50px !important;
-  transition: transform ease 0.3s;
-}
-
-.banner-container-box .social-icons ul li .social-networks:hover {
-  background: var(--e-global-color-hover);
-  color: var(--e-global-color-secondary);
-  transform: translate(0, -5px);
-  transition: ease-in-out 0.3s;
 }
 
 /* dropdown */
@@ -393,7 +372,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.home-banner-section .banner-container-box .home-banner-text h1 {
+.banner-section .banner-container-box .home-banner-text h1 {
   margin-bottom: 20px;
   font-family: 'Orbitron', sans-serif;
   color: var(--e-global-color-secondary);
@@ -402,7 +381,7 @@ a {
 /* .home-banner-section .banner-container-box .home-banner-text .banner-solution{
   color: var(--e-global-color-accent);
 } */
-.home-banner-section .banner-container-box .banner-paragraph {
+.banner-section .banner-container-box .banner-paragraph {
   font-size: 22px;
   font-weight: 400;
   line-height: 33px;
@@ -411,44 +390,6 @@ a {
   color: var(--e-global-color-text);
   padding-right: 10px;
 }
-
-.home-banner-section .banner-container-box .banner-btn a {
-  color: var(--e-global-color-secondary);
-  background: var(--e-global-color-accent);
-  border-radius: 15px;
-  padding: 20px 48px 21px 47px;
-  display: inline-block;
-  position: relative;
-  font-weight: 600;
-  transition: transform ease 300ms;
-  line-height: 20px;
-  word-spacing: 2px;
-  font-size: 20px;
-  transition: ease-in-out 0.3s;
-}
-
-.home-banner-section .banner-container-box .banner-btn a:hover {
-  transform: translateY(-5px);
-  background: var(--e-global-color-hover) !important;
-  color: var(--e-global-color-secondary);
-  transition: ease-in-out 0.3s;
-}
-
-.discover-btn-banner .play-button {
-  padding: 19px 25px;
-  margin-left: 14px;
-  background: var(--e-global-color-dark-blue2) !important;
-  border: 1px solid var(--e-global-color-soft-blue);
-}
-
-.discover-btn-banner .play-button:hover {
-  border: 1px solid var(--e-global-color-hover);
-}
-
-/* .home-banner-section {
-  padding-top: 217px;
-  padding-bottom: 213px;
-} */
 
 .inner-arrow-menu-btn {
   font-size: 18px;
@@ -491,8 +432,7 @@ a {
 
 /* our-services-section */
 .our-services-section {
-  background: var(--e-global-color-dark-blue);
-  padding: 139px 0;
+  padding: 0px 0;
 }
 
 .our-services-section h6 {
@@ -682,7 +622,7 @@ a {
 
 /* about-us-section */
 .about-us-section {
-  background: var(--e-global-color-blue-best);
+  background: var(--e-global-color-dark-blue);
   padding: 154px 0 154px;
 }
 
@@ -815,7 +755,6 @@ a {
 }
 
 .about-us-section::after {
-  background: url(../images/about-right-backround.png);
   content: "";
   width: 445px;
   height: 405px;
@@ -863,7 +802,7 @@ a {
 }
 
 .partners-section {
-  background: var(--e-global-color-dark-blue);
+  background: var(--e-global-color-blue-best);
   padding: 128px 0;
 }
 
@@ -914,7 +853,7 @@ a {
 
 /* who-we-are-section */
 .who-we-are-section {
-  background: var(--e-global-color-very-dark-blue);
+  background: var(--e-global-color-dark-blue);
   /* padding: 150px 0 0px; */
   position: relative;
 }
@@ -988,7 +927,6 @@ a {
 }
 
 .who-we-are-section:before {
-  background: url(../images/who-we-before.png);
   content: "";
   width: 445px;
   height: 406px;
@@ -1020,7 +958,6 @@ a {
 }
 
 .who-we-are-section .section-2::after {
-  background: url(../images/section2-after-img.png);
   content: "";
   width: 445px;
   height: 405px;
@@ -1262,7 +1199,6 @@ a {
 }
 
 .our-teams-section:before {
-  background: url(../images/who-we-before.png);
   content: "";
   width: 445px;
   height: 406px;
@@ -1625,7 +1561,7 @@ a {
 }
 
 .contact-us-form {
-  background: var(--e-global-color-blue-best);
+  background: var(--e-global-color-dark-blue);
   padding: 128px 0 133px;
   position: relative;
   overflow: hidden;
@@ -1690,7 +1626,6 @@ a {
 }
 
 .contact-us-form::after {
-  background: url(../images/section2-after-img.png);
   content: "";
   width: 445px;
   height: 405px;
@@ -2026,7 +1961,7 @@ a {
 
 /* about-us-page-section */
 .about-us-page-section {
-  background: var(--e-global-color-blue-best);
+  background: var(--e-global-color-dark-blue);
   padding: 90px 0 194px;
 }
 
@@ -2111,7 +2046,6 @@ a {
 }
 
 .about-us-page-section::after {
-  background: url(../images/about-right-backround.png);
   content: "";
   width: 445px;
   height: 405px;
@@ -2192,7 +2126,6 @@ a {
 }
 
 .whychooseus-section::after {
-  background: url(../images/section2-after-img.png);
   content: "";
   width: 445px;
   height: 405px;
@@ -2202,6 +2135,7 @@ a {
 }
 
 .whychooseus-section {
+  background: var(--e-global-color-blue-best);
   position: relative;
   padding: 130px 0 127px;
 }
@@ -2209,7 +2143,6 @@ a {
 /* help-section */
 
 .help-section:before {
-  background: url(../images/who-we-before.png);
   content: "";
   width: 445px;
   height: 406px;
@@ -2326,7 +2259,6 @@ a {
 }
 
 .teams-combine-section.our-teams-section:before {
-  background: url(../images/who-we-before.png);
   content: "";
   width: 445px;
   height: 406px;
@@ -2338,7 +2270,6 @@ a {
 
 /* our-servicess */
 .our-servicess:before {
-  background: url(../images/who-we-before.png);
   content: "";
   width: 445px;
   height: 406px;
@@ -2916,6 +2847,7 @@ table tbody tr td p {
 /* Custom CSS for Responsive Font Sizes */
 .banner-title {
   font-size: 4.5rem;
+  padding-bottom: 20px;
   /* Default font size for large screens */
 }
 
@@ -2924,16 +2856,16 @@ table tbody tr td p {
   /* Default subtitle font size */
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 800px) {
 
   /* Bootstrap's breakpoint for small devices */
   .banner-title {
-    font-size: 1.8rem;
+    font-size: 3.6rem;
     /* Smaller font size for mobile */
   }
 
   .banner-subtitle {
-    font-size: 14px
+    font-size: 1.2rem;
       /* Smaller subtitle font size for mobile */
   }
 }
