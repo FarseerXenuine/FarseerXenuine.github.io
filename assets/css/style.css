@@ -809,6 +809,7 @@ a {
 .partners-section h2 {
   color: var(--e-global-color-secondary);
   margin-bottom: 40px;
+  letter-spacing: -0.7px;
 }
 
 .partners-section .partners-content .partners-box {
