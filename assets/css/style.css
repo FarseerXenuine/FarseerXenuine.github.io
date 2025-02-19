@@ -65,6 +65,13 @@ html {
 
 }
 
+.header-logo {
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+
 h1 {
   font-size: 70px;
   line-height: 70px;
