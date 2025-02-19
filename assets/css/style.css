@@ -1655,6 +1655,12 @@ a {
   position: relative;
 }
 
+.footer-logo {
+  height: 36px;
+  margin-right: 10px;
+  padding-bottom: 3px;
+}
+
 .footer-content1 figure {
   margin-bottom: 12px;
 }
@@ -1715,6 +1721,7 @@ a {
   font-size: 1.7rem;
   color: #FFF;
   font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
 }
 
 .footer-section .footer-next-list-signup {
@@ -2716,10 +2723,6 @@ a {
   color: var(--e-global-color-secondary);
   transition: ease-in-out 0.3s;
   border: 1px solid var(--e-global-color-hover);
-}
-
-.grayyy {
-  background: var(--e-global-color-dark-blue);
 }
 
 table,
