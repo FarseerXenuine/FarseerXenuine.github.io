@@ -261,10 +261,11 @@ a {
 }
 
 .banner-section {
-    height: 380px;
+    height: 580px;
     padding-top: 100px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .home-header-section .main-header .navbar-collapse .navbar-nav li a {
@@ -376,7 +377,7 @@ a {
   margin-bottom: 20px;
   font-family: 'Orbitron', sans-serif;
   color: var(--e-global-color-secondary);
-}
+    }
 
 /* .home-banner-section .banner-container-box .home-banner-text .banner-solution{
   color: var(--e-global-color-accent);
@@ -2851,12 +2852,14 @@ table tbody tr td p {
 /* Custom CSS for Responsive Font Sizes */
 .banner-title {
   font-size: 4.5rem;
-  padding-bottom: 20px;
+  font-size: 8rem;
+  padding-bottom: 50px;
+  padding-top: 100px;
   /* Default font size for large screens */
 }
 
 .banner-subtitle {
-  font-size: 1.5rem;
+  font-size: 2rem;
   /* Default subtitle font size */
 }
 
@@ -2865,6 +2868,7 @@ table tbody tr td p {
   /* Bootstrap's breakpoint for small devices */
   .banner-title {
     font-size: 3.6rem;
+    padding-bottom: 0px;
     /* Smaller font size for mobile */
   }
 
@@ -2872,6 +2876,7 @@ table tbody tr td p {
     font-size: 1.2rem;
       /* Smaller subtitle font size for mobile */
   }
+  
 }
 
 .partners-section .col {
