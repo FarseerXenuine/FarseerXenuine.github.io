@@ -1603,7 +1603,7 @@
   }
 
   .about-us-section .about-content-img .about-section-f1 {
-    left: -86px;
+    /* left: -86px; */
     top: 9px;
     text-align: center;
   }
@@ -1639,9 +1639,9 @@
     line-height: 36px;
   }
 
-  .about-us-section .about-content-img {
+  /* .about-us-section .about-content-img {
     margin-bottom: -40px;
-  }
+  } */
 
   /* partners-section */
   .partners-section {
@@ -2309,9 +2309,7 @@
     padding: 51px 0 60px;
   }
 
-  .about-us-section .about-content-img {
-    margin-bottom: -66px;
-  }
+
 
   .about-us-section .about-us-content .banner-btn a {
     padding: 15px 38px 16px 38px;
@@ -2786,7 +2784,7 @@
   }
 
   .about-us-section .about-content-img .about-section-f1 {
-    left: -56px;
+    /* left: -56px; */
     top: 9px;
     text-align: center;
   }
