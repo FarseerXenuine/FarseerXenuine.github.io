@@ -867,7 +867,7 @@ a {
 
 /* who-we-are-section */
 .who-we-are-section {
-  background: var(--e-global-color-dark-blue);
+  padding: 128px 0;
   /* padding: 150px 0 0px; */
   position: relative;
 }
@@ -876,7 +876,6 @@ a {
   color: var(--e-global-color-accent);
   text-transform: uppercase;
   letter-spacing: 3px;
-  margin-bottom: 22px;
 }
 
 .who-we-are-section h2 {
