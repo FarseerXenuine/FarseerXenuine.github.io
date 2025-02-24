@@ -840,7 +840,7 @@ a {
 }
 
 .footer-section .useful-footer li a:hover {
-  color: var(--e-global-color-blue-bright);
+  color: var(--e-global-color-blue-dark);
 }
 
 .footer-section .footer-list .icon-list-box1 li {
