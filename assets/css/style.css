@@ -3,6 +3,8 @@
 
 body {
   font-family: 'Titillium Web', sans-serif;
+  background: var(--e-global-color-black-bright);
+  z-index: -2;
 }
 
 .navbar-nav {
@@ -45,7 +47,7 @@ html {
 }
 
 .header {
-  background: #1c1c20;
+  background: var(--e-global-color-black);
   position: fixed;
   top: 0;
   left: 0;
@@ -101,18 +103,7 @@ a {
   background-size: cover;
   background-position: top;
   filter: brightness(0.5);
-  z-index: -1;
-}
-
-.bg-bright {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: top;
-  z-index: -1;
+  z-index: 0;
 }
 
 @keyframes color-animation {
@@ -151,7 +142,6 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: var(--e-global-color-black);
   position: relative;
   overflow: hidden;
 }
@@ -186,12 +176,40 @@ a {
 }
 
 .banner-section {
-  background: var(--e-global-color-black-bright);
   padding-top: 200px;
   display: flex;
   align-items: center;
   position: relative;
   padding-bottom: 50px;
+}
+
+.bg-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+
+  background-image: url("assets/images/CircuitL.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.03;
+  z-index: -1;
+}
+.bg-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+
+  background-image: url("assets/images/CircuitR.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.03;
+  z-index: -1;
 }
 
 .home-header-section .main-header .navbar-collapse .navbar-nav li a {
@@ -348,11 +366,6 @@ a {
   margin-bottom: 46px;
 }
 
-.partners-section .owl-stage-outer {
-  display: flex;
-  justify-content: center;
-}
-
 .banner-section .services-content {
   border-radius: 10px;
   padding: 37px 51px 53px 51px;
@@ -377,25 +390,6 @@ a {
   color: var(--e-global-color-black);
   padding: 0;
   margin-bottom: 33px;
-}
-
-.banner-section .services-content a {
-  color: var(--e-global-color-secondary);
-  font-size: 18px;
-  line-height: 18px;
-  font-weight: 600;
-  letter-spacing: 0px;
-  background: var(--e-global-color-dark-blue2);
-  border: 1px solid var(--e-global-color-soft-blue);
-  border-radius: 15px;
-  padding: 11px 34px 12px 34px;
-  transition: ease-in-out 0.3s;
-}
-
-.banner-section .services-content a:hover {
-  background: var(--e-global-color-blue-bright);
-  border: 1px solid var(--e-global-color-blue-bright);
-  transition: ease-in-out 0.3s;
 }
 
 .banner-section .services-content h5 {
@@ -570,17 +564,15 @@ a {
   }
 }
 
+.partners-section {
+}
+
 .partners-section h6 {
   text-align: center;
   color: var(--e-global-color-blue-bright);
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 22px;
-}
-
-.partners-section {
-  background: var(--e-global-color-black-bright);
-  padding: 128px 0;
 }
 
 .partners-section h2 {
@@ -590,7 +582,6 @@ a {
 }
 
 .partners-section .partners-content .partners-box {
-  background: var(--e-global-color-dark-blue3);
   border-radius: 10px;
   padding: 24px 23px 24px 23px;
   transition: 0s all ease-in-out;
@@ -772,6 +763,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 22px;
+  font-size: 22px;
 }
 
 .contact-us-form {
@@ -859,7 +851,7 @@ a {
 }
 
 .footer-section {
-  background: #1c1c20;
+  background: var(--e-global-color-black);
   color: #fff;
   overflow: hidden;
   padding: 111px 0 0;
@@ -1311,7 +1303,6 @@ a {
 }
 
 .whychooseus-section {
-  background: var(--e-global-color-black-bright);
   color: var(--e-global-color-grey-bright);
   position: relative;
   padding: 130px 0 127px;
@@ -1750,7 +1741,6 @@ table tbody tr td p {
 }
 
 .comparison-table thead {
-  background: var(--e-global-color-black-bright);
   border-bottom: 1px solid;
   color: var(--e-global-color-grey-bright);
 }
