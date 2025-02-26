@@ -106,19 +106,6 @@ a {
   z-index: 0;
 }
 
-.bg-banner {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: 20%;
-  background-position: center;
-  background-repeat: no-repeat;
-  right: 450px;
-  bottom: 100px;
-  z-index: 0;
-  opacity: 0.15;
-}
-
 @keyframes color-animation {
   0%, 32% {
     color: var(--e-global-color-blue-bright);
@@ -225,6 +212,36 @@ a {
   background-size: cover;
   opacity: 0.025;
   z-index: -1;
+}
+.bg-left-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16%;
+  height: 100%;
+
+  background-image: url("assets/images/CircuitL.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0);
+  opacity: 0.025;
+  z-index: 0;
+}
+.bg-right-banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 16%;
+  height: 100%;
+
+  background-image: url("assets/images/CircuitR.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0);
+  opacity: 0.025;
+  z-index: 0;
 }
 
 .home-header-section .main-header .navbar-collapse .navbar-nav li a {
@@ -1140,9 +1157,23 @@ table tbody tr td p {
   text-align: center;
 }
 
+.comparison-table thead tr th:nth-child(2) {
+    width: 38%;
+}
+
+.comparison-table thead tr th:nth-child(3) {
+    width: 42%;
+}
+
 .comparison-table .blue {
   color: var(--e-global-color-blue-dark) !important;
   font-weight:900;
+  font-size: 1.8rem !important;
+}
+.comparison-table .blue p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1.4rem !important;
 }
 
 .comparison-table tbody tr td {
