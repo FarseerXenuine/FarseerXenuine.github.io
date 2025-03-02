@@ -48,7 +48,7 @@ html {
 }
 
 .header {
-  background: var(--e-global-color-black);
+  background: var(--e-global-color-black-semi-bright);
   position: fixed;
   top: 0;
   left: 0;
