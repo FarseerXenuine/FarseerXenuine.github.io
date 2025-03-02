@@ -17,6 +17,7 @@ body {
   --e-global-color-blue-dark: #4AA5F0;
   --e-global-color-black: #000;
   --e-global-color-black-bright: #0f0f0f;
+  --e-global-color-black-semi-bright: #080808;
   --e-global-color-hover: #4AA5F0;
   --e-global-color-white: #ffffff;
   --e-global-color-grey-bright: #ebebeb;
@@ -1171,7 +1172,13 @@ table tbody tr td p {
   line-height: 1.5;
   font-size: 1.4rem !important;
 }
+.comparison-table tbody tr:nth-child(odd) {
+  background-color: var(--e-global-color-black-semi-bright);
+}
 
+.comparison-table tbody tr:nth-child(even) {
+  background-color: var(--e-global-color-black-bright);
+}
 .comparison-table tbody tr td {
   padding: 16px;
   border-bottom: 1px solid var(--e-global-color-grey-dark);
@@ -1180,6 +1187,14 @@ table tbody tr td p {
 
 .comparison-table tbody tr:last-of-type td {
   border-bottom: none;
+}
+@media (max-width: 767.98px) {
+  .comparison-table tbody tr:last-of-type td {
+    border-bottom: 1px solid var(--e-global-color-grey-dark);
+  }
+  .comparison-table tbody tr:last-of-type td.blue {
+    border-bottom: none;
+  }
 }
 
 .comparison-table tbody tr:hover {
