@@ -811,13 +811,9 @@ a {
 }
 
 .footer-section .useful-footer {
-  padding-left: 36px;
+  padding-left: 8px;
   list-style: none;
   color: #FFF !important;
-}
-
-.footer-section .footer-next-list-about {
-  padding-left: 17px;
 }
 
 .footersize {
