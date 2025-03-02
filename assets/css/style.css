@@ -13,7 +13,7 @@ body {
 
 :root {
   --e-global-color-secondary: #000000;
-  --e-global-color-blue-bright: #99ccf7;
+  --e-global-color-blue-bright: #90cafa;
   --e-global-color-blue-dark: #4AA5F0;
   --e-global-color-black: #000;
   --e-global-color-black-bright: #0f0f0f;
@@ -687,7 +687,7 @@ a {
   font-weight: 400;
   line-height: 20px;
   color: var(--e-global-color-black);
-  background-color: aliceblue;
+  background-color: hwb(208 91% 0%);
   background-clip: padding-box;
   border: none;
   border-radius: 14px;
