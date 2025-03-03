@@ -1,0 +1,26 @@
+
+# Maintenance Notes for FarseerXenuine.github.io
+
+## General Information
+- This project is a website for Farseer Xenuine, an anti-cheat service.
+- The project uses HTML, CSS, and JavaScript.
+- The CSS files are organized into `style.css` for general styles and `mobile.css` for mobile-specific styles.
+
+## CSS Media Queries
+- Ensure that media queries are used to handle different screen sizes.
+- Example:
+  ```css
+  @media screen and (max-width: 767px) {
+    /* Mobile-specific styles */
+  }
+  ```
+
+## Contributing
+- Fork the repository.
+- Create a new branch for your feature or bugfix.
+- Make your changes.
+- Submit a pull request with a detailed description of your changes.
+- Ensure your code follows our coding standards and includes appropriate tests.
+
+## Contact Information
+- For any issues or questions, contact the project maintainer at `NobleCat@farseer.ai`.
