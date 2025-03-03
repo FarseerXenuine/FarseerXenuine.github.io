@@ -604,6 +604,7 @@
   .footer-section .footer-list .icon-list-box1 li {
     padding-left: 10px;
     margin-bottom: 12px;
+    font-size: 16px !important;
   }
 }
 
@@ -2521,6 +2522,22 @@
     text-align: center;
     margin-bottom: 5px;
     width: 62%;
+  }
+
+  .footer-section .footersize {
+    font-size: 24px;
+  }
+
+  .footer-section .footer-section-text {
+    font-size: 16px;
+  }
+
+  .footer-section .useful-footer li a {
+    font-size: 16px;
+  }
+
+  .footer-section .footer-information {
+    font-size: 16px;
   }
 
   /* about-page */
