@@ -811,11 +811,6 @@ a {
   margin-bottom: 17px;
 }
 
-.footer-section .useful-footer {
-  padding-left: 8px;
-  list-style: none;
-  color: #FFF !important;
-}
 
 .footersize {
   font-size: 1.7rem;
@@ -831,6 +826,11 @@ a {
 
 .footer-section .contact-list {
   padding-left: 8px;
+}
+.footer-section .useful-footer {
+  padding-left: 8px;
+  list-style: none;
+  color: #FFF !important;
 }
 
 .footer-section .useful-footer li {
