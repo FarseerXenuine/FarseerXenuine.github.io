@@ -602,6 +602,7 @@
 
   /* footer */
   .footer-section .footer-list .icon-list-box1 li {
+    padding-left: 0px;
     margin-bottom: 12px;
     font-size: 16px !important;
   }
@@ -1904,7 +1905,7 @@
   }
 
   .footer-section .footer-list .icon-list-box1 .form-btn button {
-    padding: 16px 50px 17px 50px !important;
+    padding: 16px 50px 16px 50px !important;
   }
 
   .footer-section .footer-bar .footer-bar-content p {
