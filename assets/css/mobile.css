@@ -4,10 +4,6 @@
     top: 123px;
   }
 
-  .services-section .services-content-page {
-    padding: 30px 32px;
-  }
-
   .whychooseus-section::after {
     width: 445px;
     height: 405px;
@@ -39,10 +35,6 @@
     padding: 130px 0 127px;
   }
 
-  .about-us-page-section {
-    padding: 90px 0 219px;
-  }
-
   .home-header-section .sub-banner-section {
     padding-top: 111px;
     padding-bottom: 137px;
@@ -60,17 +52,6 @@
     top: -23%;
     left: -42%;
     margin-bottom: 0;
-  }
-
-  .help-section .help-section-img2 {
-    right: 0;
-    margin: 0 auto;
-    top: 103px;
-  }
-
-  .teams-combine-section::after {
-    right: -572px;
-    top: -49px;
   }
 
   .our-servicess .section-2 .who-we-right-fig {
@@ -109,24 +90,6 @@
 
   .about-us-section .about-left-back-img {
     left: -49%;
-  }
-
-  /* carousel-section */
-  .carousel-section:before {
-    top: 95px;
-    left: 44px;
-  }
-
-  .help-section .help-section-img2 {
-    left: 259px;
-    right: 0;
-    margin: 0 auto;
-    top: 94px;
-  }
-
-  .teams-combine-section::after {
-    right: -659px;
-    top: -48px;
   }
 }
 
@@ -198,30 +161,12 @@
     padding: 176px 0 0px;
   }
 
-  /* carousel-section */
-  .carousel-section:before {
-    top: 26px;
-    left: 25px;
-  }
-
   /* about-page */
   .whychooseus-section::after {
     width: 445px;
     height: 405px;
     right: -143px;
     bottom: -188px;
-  }
-
-  .teams-combine-section::after {
-    right: -705px;
-    top: -43px;
-  }
-
-  .help-section .help-section-img2 {
-    left: 206px;
-    right: 0;
-    margin: 0 auto;
-    top: 93px;
   }
 }
 
@@ -278,13 +223,6 @@
     height: 405px;
     right: -143px;
     bottom: -236px;
-  }
-
-  .help-section .help-section-img2 {
-    left: 155px;
-    right: 0;
-    margin: 0 auto;
-    top: 93px;
   }
 }
 
@@ -364,12 +302,6 @@
     font-size: 1.7rem;
   }
 
-  /* carousel-section */
-  .carousel-section:before {
-    top: 10px;
-    left: 6px;
-  }
-
   /* contact-form */
   .contact-us-form::after {
     right: -150px;
@@ -379,10 +311,6 @@
   /* about-page */
   .partners-section {
     padding: 128px 0 153px;
-  }
-
-  .pricing-plan-section {
-    padding: 118px 0 137px;
   }
 
   .contact-us-form {
@@ -403,18 +331,6 @@
 
   .home-header-section .sub-banner-section p {
     padding: 0 30%;
-  }
-
-  .help-section .help-section-img2 {
-    left: 99px;
-    right: 0;
-    margin: 0 auto;
-    top: 93px;
-  }
-
-  .teams-combine-section::after {
-    right: -813px;
-    top: -43px;
   }
 
   /* services */
@@ -502,17 +418,6 @@
     right: -62%;
   }
 
-  /* carousel-section */
-  .carousel-section::after {
-    right: 31px;
-    bottom: 48px;
-  }
-
-  .carousel-section:before {
-    top: 13px;
-    left: 31px;
-  }
-
   /* contact-form */
   .contact-us-form::after {
     right: -182px;
@@ -540,15 +445,6 @@
 
   .main-header .navbar-brand {
     margin: 0;
-  }
-
-  .services-section .services-content h4 {
-    font-size: 20px;
-    line-height: 26px;
-  }
-
-  .services-section .services-content-page {
-    padding: 30px 20px;
   }
 
   .home-banner-section .banner-img-content .banner-img-width {
@@ -582,14 +478,6 @@
     display: none;
   }
 
-  .help-section .help-section-img2 {
-    left: -17px;
-    right: 0;
-    margin: 0 auto;
-    top: 93px;
-    display: none;
-  }
-
   /* services */
   .our-servicess .section-2 {
     padding-bottom: 147px;
@@ -616,10 +504,6 @@
   .home-header-section:before {
     top: -257px;
     left: -288px;
-  }
-
-  .pricing-plan-section {
-    padding: 118px 0px 80px;
   }
 }
 
@@ -769,11 +653,6 @@
     margin: 0 11px;
   }
 
-  /* our services */
-  .our-services-section {
-    padding: 100px 0;
-  }
-
   /* about-us */
   .about-us-section {
     padding: 100px 0;
@@ -872,11 +751,6 @@
     padding-left: 30px;
   }
 
-  /* our-services */
-  .our-services-section .services-content {
-    padding: 37px 35px
-  }
-
   /* partners-section */
   .partners-section {
     padding: 51px 0 92px;
@@ -963,36 +837,6 @@
     display: none;
   }
 
-  /* pricing-section */
-  .pricing-plan-section {
-    padding: 100px 0 51px;
-  }
-
-  .pricing-plan-section .pricing-plan-h5 {
-    left: 0px;
-    right: 0;
-  }
-
-  .pricing-plan-section h6 {
-    margin-bottom: 12px;
-  }
-
-  .pricing-plan-section h2 {
-    margin-bottom: 50px;
-  }
-
-  .pricing-plan-section .services-content {
-    padding: 46px 16px 59px 21px;
-  }
-
-  .pricing-plan-section .services-content .list-margin-bottom {
-    margin-bottom: 28px;
-  }
-
-  .pricing-plan-section .services-content .icons-rounded-box {
-    margin-bottom: 15px;
-  }
-
   /* our-teams-section */
   .our-teams-section:before {
     top: -202px;
@@ -1022,31 +866,6 @@
     padding: 100px 0 63px;
   }
 
-  .carousel-section::after {
-    right: 31px;
-    bottom: 48px;
-    display: none;
-  }
-
-  .carousel-section:before {
-    top: 13px;
-    left: 31px;
-    display: none;
-  }
-
-  .carousel-section {
-    padding: 96px 0 127px;
-  }
-
-  .carousel-section .carousel-content h4 {
-    padding: 0px 40px;
-    margin-bottom: 140px;
-  }
-
-  .carousel-section .carousel-content ul {
-    margin-bottom: 3px;
-  }
-
   /* contact-form */
   .contact-us-form .about-left-back-img {
     left: -106%;
@@ -1062,12 +881,6 @@
 
   .contact-us-form h2 {
     margin-bottom: 34px;
-  }
-
-  /* help-section */
-  .help-section .help-section-content:before {
-    width: 930px;
-    height: 324px;
   }
 
   /* footer-section */
@@ -1096,32 +909,6 @@
 
   .home-header-section .sub-banner-section .sub-banner-outer {
     padding-right: 0;
-  }
-
-  /* about-page */
-  .about-us-page-section .about-us-content {
-    padding-top: 8px;
-    padding-left: 0px;
-  }
-
-  .about-us-page-section::before {
-    background: url(../images/about-page-img4.png);
-    content: "";
-    width: 659px;
-    height: 578px;
-    position: absolute;
-    top: 262px;
-    left: 323px;
-    display: none;
-  }
-
-  .about-us-page-section .about-section-f1 img {
-    width: 100%;
-  }
-
-  .about-us-page-section .about-section-f2 img {
-    width: 100%;
-    margin-bottom: 40px !important;
   }
 
   h3 {
@@ -1164,30 +951,6 @@
 
   .whychooseus-section h2 {
     margin-bottom: 30px;
-  }
-
-  .teams-combine-section::after {
-    right: -813px;
-    top: -43px;
-    display: none;
-  }
-
-  .teams-combine-section {
-    padding: 100px 0 62px;
-  }
-
-  .help-section {
-    padding: 0px 0 100px;
-  }
-
-  .help-section .help-section-content {
-    padding: 90px 0;
-  }
-
-  .teams-combine-section .teams-img-content .hover_box_plus ul {
-    bottom: 60px;
-    left: 0px;
-    right: 0;
   }
 
   /* teams-section-page */
@@ -1474,39 +1237,6 @@
     margin-bottom: 14px;
   }
 
-  /* our services */
-  .our-services-section {
-    padding: 84px 0;
-  }
-
-  .our-services-section h6 {
-    margin-bottom: 10px;
-  }
-
-  .our-services-section h2 {
-    margin-bottom: 33px;
-  }
-
-  .our-services-section .services-content {
-    padding: 30px 16px 38px 16px;
-  }
-
-  .our-services-section .services-content a {
-    font-size: 16px;
-    line-height: 16px;
-    padding: 9px 23px 10px 23px;
-  }
-
-  .our-services-section .services-content h5 {
-    margin-bottom: 8px;
-    font-size: 20px;
-    line-height: 22px;
-  }
-
-  .our-services-section .security-services-p {
-    margin-bottom: 28px;
-  }
-
   .banner-btn .inner-arrow-style {
     top: 8px;
   }
@@ -1746,36 +1476,6 @@
     padding: 70px 0 0px;
   }
 
-  /* pricing-section */
-  .pricing-plan-section {
-    padding: 70px 0 70px;
-  }
-
-  .pricing-plan-section .pricing-plan-h5 {
-    font-size: 16px;
-    line-height: 16px;
-    padding: 10px 8px;
-    left: 11px;
-    top: -19px;
-    width: 117px;
-  }
-
-  .pricing-plan-section .pricing-plan-color {
-    margin-bottom: 48px !important;
-  }
-
-  .pricing-plan-section .services-content {
-    padding: 46px 27px 59px 41px;
-  }
-
-  .pricing-plan-section h2 {
-    margin-bottom: 46px;
-  }
-
-  .pricing-plan-section h6 {
-    margin-bottom: 7px;
-  }
-
   /* our-teams-section */
   .our-teams-section {
     padding: 70px 0 75px;
@@ -1825,44 +1525,6 @@
 
   .our-teams-section:before {
     display: none;
-  }
-
-  /* carousel-section */
-  .carousel-section {
-    padding: 64px 0 96px;
-  }
-
-  .carousel-section .carousel-content ul {
-    margin-bottom: 10px;
-  }
-
-  .carousel-section .carousel-content h4 {
-    padding: 0px 10px;
-    margin-bottom: 140px;
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  .carousel-section .carousel-indicators2 {
-    bottom: 140px;
-    margin-right: 60px;
-  }
-
-  .carousel-section .carousel-indicators2 li {
-    margin-right: 65px;
-  }
-
-  .carousel-section .carousel-indicators2 .margin-right-li {
-    margin-right: 82px;
-  }
-
-  .carousel-section .carousel-content .carousel-text p {
-    margin-bottom: 20px;
-  }
-
-  .carousel-section .carousel-indicators li {
-    width: 14px;
-    height: 14px;
   }
 
   /* contact-form */
@@ -1982,28 +1644,6 @@
 
   .whychooseus-section .services-content {
     padding: 34px 27px 35px 41px;
-  }
-
-  .help-section .help-section-content:before {
-    width: 680px;
-    height: 325px;
-    position: absolute;
-    top: 0;
-    left: 0px;
-  }
-
-  .help-section {
-    padding: 0px 0 70px;
-  }
-
-  .teams-combine-section {
-    padding: 92px 0 70px;
-  }
-
-  .teams-combine-section .combine-section-content .hover_box_plus ul {
-    left: 0px;
-    right: 0;
-    bottom: 51px;
   }
 
   /* services */
@@ -2197,48 +1837,6 @@
     margin-bottom: 24px;
   }
 
-  /* carousel-section */
-  .carousel-section .carousel-content h4 {
-    padding: 0px 0px;
-    margin-bottom: 106px;
-    font-size: 24px;
-    line-height: 34px;
-  }
-
-  .carousel-section .carousel-indicators2 {
-    bottom: 112px;
-    margin-right: 60px;
-  }
-
-  .carousel-section {
-    padding: 54px 0 85px;
-  }
-
-  .carousel-section .carousel-content h5 {
-    margin-bottom: 16px;
-  }
-
-  .carousel-section .carousel-content ul li i {
-    font-size: 20px;
-    line-height: 20px;
-  }
-
-  .carousel-section .carousel-indicators2 .margin-right-li img {
-    width: 67px;
-  }
-
-  .carousel-section .carousel-indicators2 .margin-right-li-img img {
-    width: 67px;
-  }
-
-  .carousel-section .carousel-indicators2 .margin-right-li {
-    margin-right: 65px;
-  }
-
-  .carousel-section .carousel-indicators2 li {
-    margin-right: 59px;
-  }
-
   .dropdown-content-redlight ul li a {
     line-height: 17px;
     padding: 6px 29px !important;
@@ -2266,11 +1864,6 @@
     left: 0;
     text-align: center;
     /* top: 25px; */
-  }
-
-  /* our services */
-  .our-services-section {
-    padding: 60px 0;
   }
 
   /* about-us-section */
@@ -2385,48 +1978,6 @@
     padding-right: 0;
     font-size: 20px;
     line-height: 28px;
-  }
-
-  /* pricing-section */
-  .pricing-plan-section .services-content {
-    padding: 35px 3px 48px 13px;
-  }
-
-  .pricing-plan-section .list-span {
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: -0.3px;
-  }
-
-  .pricing-plan-section ul i {
-    width: 17px;
-    height: 17px;
-    padding: 4px;
-    margin-right: 7px;
-    font-size: 12px;
-    line-height: 10px;
-  }
-
-  .pricing-plan-section .pricing-plan-color {
-    margin-bottom: 40px !important;
-  }
-
-  .pricing-plan-section ul li {
-    margin-bottom: 10px !important;
-  }
-
-  .pricing-plan-section .services-content .list-margin-bottom {
-    margin-bottom: 24px;
-  }
-
-  .pricing-plan-section .services-content .order-now-btn a {
-    padding: 9px 17px 9px;
-    font-size: 16px;
-    line-height: 16px;
-  }
-
-  .pricing-plan-section {
-    padding: 55px 0 62px;
   }
 
   /* our-teams-section */
@@ -2610,38 +2161,6 @@
     line-height: 22px;
   }
 
-  .teams-combine-section {
-    padding: 59px 0 60px;
-  }
-
-  .help-section .help-section-content:before {
-    width: 504px;
-    height: 257px;
-    top: 0;
-    left: 0px;
-  }
-
-  .help-section .help-section-content {
-    padding: 60px 10px;
-    height: auto;
-  }
-
-  .help-section h2 {
-    margin-bottom: 23px;
-    font-size: 28px;
-    line-height: 33px;
-  }
-
-  .help-section .help-section-content .form-btn button {
-    line-height: 18px;
-    font-size: 18px;
-    padding: 15px 36px 15px 36px !important;
-  }
-
-  .help-section {
-    padding: 0px 0 62px;
-  }
-
   /* teams-section */
   .teams-section-page .teams-img-content .teams-text p {
     margin-bottom: 24px;
@@ -2668,10 +2187,6 @@
 
   .teams-section-page {
     padding: 61px 0 31px;
-  }
-
-  .teams-combine-section .combine-section-content .hover_box_plus ul {
-    bottom: 45px;
   }
 
   .who-we-are-section2 {
@@ -2783,11 +2298,6 @@
     word-spacing: 1px;
     font-size: 16px;
     line-height: 18px;
-  }
-
-  /* our-services */
-  .our-services-section h2 {
-    margin-bottom: 26px;
   }
 
   .nav-link {
@@ -2949,49 +2459,6 @@
     padding: 60px 0 20px;
   }
 
-  /* pricing-section */
-  .pricing-plan-section .services-content .order-now-btn a {
-    padding: 10px 27px 10px;
-    font-size: 16px;
-    line-height: 16px;
-  }
-
-  .pricing-plan-section ul i {
-    width: 20px;
-    height: 20px;
-    padding: 4px;
-    margin-right: 9px;
-    font-size: 12px;
-    line-height: 15px;
-  }
-
-  .pricing-plan-section ul i {
-    width: 20px;
-    height: 20px;
-    padding: 4px;
-    margin-right: 9px;
-    font-size: 12px;
-    line-height: 15px;
-  }
-
-  .pricing-plan-section .services-content {
-    padding: 35px 40px 48px 50px;
-    margin-bottom: 40px;
-  }
-
-  .pricing-plan-section {
-    padding: 57px 0 60px;
-  }
-
-  .pricing-plan-section .pro-card {
-    margin-bottom: 0 !important;
-  }
-
-  .pricing-plan-section .pricing-plan-color {
-    font-size: 33px;
-    line-height: 33px;
-  }
-
   /* our-teams-section */
   .our-teams-section .about-us-content {
     padding-top: 0px;
@@ -3021,68 +2488,6 @@
 
   .our-teams-section {
     padding: 60px 0 52px;
-  }
-
-  .carousel-section .carousel-content h5 {
-    margin-bottom: 12px;
-    font-size: 22px;
-    line-height: 22px;
-  }
-
-  .carousel-section .carousel-content ul li i {
-    letter-spacing: 0px;
-    font-size: 18px;
-    line-height: 18px;
-  }
-
-  .carousel-section .carousel-content h4 {
-    padding: 0px 0px;
-    margin-bottom: 97px;
-    font-size: 20px;
-    line-height: 27px;
-  }
-
-  .carousel-section .carousel-indicators2 .margin-right-li {
-    margin-right: 76px;
-  }
-
-  .carousel-section .carousel-indicators2 {
-    bottom: 86px;
-    margin-right: 37px;
-  }
-
-  .carousel-section .carousel-indicators2 li {
-    margin-right: 54px;
-  }
-
-  .carousel-section .carousel-indicators2 .margin-right-li {
-    margin-right: 54px;
-  }
-
-  .carousel-section .carousel-indicators2 .margin-right-li img {
-    width: 60px;
-  }
-
-  .carousel-section .carousel-indicators2 .margin-right-li-img img {
-    width: 60px;
-  }
-
-  .carousel-section .carousel-content .carousel-text p {
-    margin-bottom: 10px;
-  }
-
-  .carousel-section .carousel-content .carousel-text h6 {
-    font-size: 20px;
-    line-height: 20px;
-    margin-bottom: 6px;
-  }
-
-  .carousel-section .carousel-content .carousel-text p {
-    margin-bottom: 10px;
-  }
-
-  .carousel-section .carousel-content ul {
-    margin-bottom: 5px;
   }
 
   /* contact-form */
@@ -3201,15 +2606,6 @@
     padding: 12px 22px 12px 22px !important;
   }
 
-  /* about-us-section */
-  .about-us-page-section {
-    padding: 0px 0 60px;
-  }
-
-  .about-us-page-section .about-us-content {
-    padding-left: 0px;
-  }
-
   .about-us-section h2 {
     margin-bottom: 10px;
     font-size: 26px;
@@ -3239,39 +2635,6 @@
 
   .whychooseus-section {
     padding: 57px 0 5px;
-  }
-
-  .help-section .help-section-content:before {
-    width: 327px;
-    top: 0;
-    left: 0px;
-    height: 198px;
-  }
-
-  .help-section .help-section-content {
-    padding: 44px 10px;
-    height: auto;
-  }
-
-  .help-section h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    line-height: 24px;
-  }
-
-  .help-section .help-section-content .form-btn button {
-    line-height: 16px;
-    font-size: 16px;
-    padding: 13px 28px 14px 28px !important;
-  }
-
-  .help-section {
-    padding: 0px 0 60px;
-  }
-
-  /* our-services */
-  .our-services-section .services-page-content {
-    margin-bottom: 25px;
   }
 
   .teams-section-page .teams-img-content ul li i {
