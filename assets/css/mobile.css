@@ -53,16 +53,6 @@
     left: -42%;
     margin-bottom: 0;
   }
-
-  .our-servicess .section-2 .who-we-right-fig {
-    top: -71%;
-    left: -42%;
-    margin-bottom: 0;
-  }
-
-  .our-servicess .section-2 {
-    padding-bottom: 127px;
-  }
 }
 
 @media screen and (max-width: 1850px) {
@@ -153,14 +143,6 @@
     padding-top: 210px;
   }
 
-  .our-servicess .section-2 {
-    padding-top: 0px;
-  }
-
-  .our-servicess {
-    padding: 176px 0 0px;
-  }
-
   /* about-page */
   .whychooseus-section::after {
     width: 445px;
@@ -196,16 +178,6 @@
 
   .about-us-section .about-left-back-img {
     left: -62%;
-  }
-
-  .our-teams-section .who-we-right-fig {
-    top: -49%;
-    right: -40%;
-  }
-
-  .our-teams-section:before {
-    top: -160px;
-    left: -140px;
   }
 
   .contact-us-form::after {
@@ -332,16 +304,6 @@
   .home-header-section .sub-banner-section p {
     padding: 0 30%;
   }
-
-  /* services */
-  .our-servicess .section-2 .who-we-right-fig {
-    left: -79%;
-    display: none;
-  }
-
-  .our-servicess .section-2 {
-    padding-bottom: 142px;
-  }
 }
 
 @media screen and (max-width: 1440px) {
@@ -408,16 +370,6 @@
     margin-left: -10px;
   }
 
-  .our-teams-section:before {
-    top: -186px;
-    left: -176px;
-  }
-
-  .our-teams-section .who-we-right-fig {
-    top: -49%;
-    right: -62%;
-  }
-
   /* contact-form */
   .contact-us-form::after {
     right: -182px;
@@ -476,16 +428,6 @@
     bottom: 36px;
     margin-bottom: 0;
     display: none;
-  }
-
-  /* services */
-  .our-servicess .section-2 {
-    padding-bottom: 147px;
-  }
-
-  .our-servicess .section-2::after {
-    right: -113px;
-    bottom: -210px;
   }
 
   /* footer */
@@ -835,35 +777,6 @@
     top: -193px;
     left: -169px;
     display: none;
-  }
-
-  /* our-teams-section */
-  .our-teams-section:before {
-    top: -202px;
-    left: -176px;
-  }
-
-  .our-teams-section h2 {
-    margin-bottom: 18px;
-    font-size: 42px;
-    line-height: 46px;
-  }
-
-  .our-teams-section h6 {
-    margin-bottom: 10px;
-  }
-
-  .our-teams-section .about-us-content .aboutus-p {
-    padding-right: 0px;
-    margin-bottom: 10px;
-  }
-
-  .our-teams-section .about-us-content .our-teamp2 {
-    margin-bottom: 28px;
-  }
-
-  .our-teams-section {
-    padding: 100px 0 63px;
   }
 
   /* contact-form */
@@ -1476,57 +1389,6 @@
     padding: 70px 0 0px;
   }
 
-  /* our-teams-section */
-  .our-teams-section {
-    padding: 70px 0 75px;
-  }
-
-  .our-teams-section .teams-fig {
-    text-align: center;
-  }
-
-  .our-teams-section .teams-img-content .hover_box_plus ul {
-    left: 0px;
-    right: 0;
-    bottom: 73px;
-  }
-
-  .our-teams-section .teams-img-content .hover_box_plus {
-    margin-bottom: 28px;
-  }
-
-  .our-teams-section .teams-img-content .teams-text p {
-    margin-bottom: 25px;
-  }
-
-  .our-teams-section h2 {
-    margin-bottom: 16px;
-    font-size: 34px;
-    line-height: 38px;
-  }
-
-  .our-teams-section .about-us-content .aboutus-p {
-    margin-bottom: 10px;
-    padding: 0 61px;
-  }
-
-  .our-teams-section .about-us-content .our-teamp2 {
-    margin-bottom: 24px;
-  }
-
-  .our-teams-section .about-us-content .banner-btn a {
-    padding: 20px 31px 20px 37px;
-  }
-
-  .our-teams-section .about-us-content {
-    padding-top: 22px;
-    text-align: center;
-  }
-
-  .our-teams-section:before {
-    display: none;
-  }
-
   /* contact-form */
   .contact-us-form .about-left-back-img {
     left: -138%;
@@ -1980,36 +1842,6 @@
     line-height: 28px;
   }
 
-  /* our-teams-section */
-  .our-teams-section .who-we-right-fig {
-    display: none;
-  }
-
-  .our-teams-section {
-    padding: 60px 0 67px;
-  }
-
-  .our-teams-section h2 {
-    margin-bottom: 12px;
-    font-size: 28px;
-    line-height: 33px;
-  }
-
-  .our-teams-section .about-us-content .aboutus-p {
-    margin-bottom: 8px;
-    padding: 0 0px;
-  }
-
-  .our-teams-section .about-us-content .banner-btn a {
-    padding: 16px 26px 17px 30px;
-    font-size: 16px;
-    line-height: 16px;
-  }
-
-  .our-teams-section .about-us-content .our-teamp2 {
-    margin-bottom: 22px;
-  }
-
   /* contact-form */
   .contact-us-form .form-control {
     height: 59px;
@@ -2196,11 +2028,6 @@
   h6 {
     font-size: 16px;
     line-height: 16px;
-  }
-
-  .our-teams-section .teams-img-content .teams-text h5 {
-    font-size: 20px;
-    line-height: 20px;
   }
 
   /* faq-page */
@@ -2457,37 +2284,6 @@
 
   .who-we-are-section {
     padding: 60px 0 20px;
-  }
-
-  /* our-teams-section */
-  .our-teams-section .about-us-content {
-    padding-top: 0px;
-  }
-
-  .our-teams-section .about-us-content .aboutus-p {
-    margin-bottom: 8px;
-    padding: 0 16px;
-    font-size: 18px;
-    line-height: 28px;
-  }
-
-  .our-teams-section .about-us-content .our-teamp2 {
-    margin-bottom: 20px;
-  }
-
-  .our-teams-section .about-us-content .banner-btn a {
-    padding: 15px 24px 15px 30px;
-    font-size: 16px;
-    line-height: 16px;
-  }
-
-  .our-teams-section .teams-img-content .teams-text h5 {
-    font-size: 20px;
-    line-height: 20px;
-  }
-
-  .our-teams-section {
-    padding: 60px 0 52px;
   }
 
   /* contact-form */
