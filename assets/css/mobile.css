@@ -18,9 +18,6 @@
   .home-header-section .main-header {
     padding: 26px 298px 24px 310px;
   }
-  .about-us-section .about-left-back-img {
-    left: -41%;
-  }
   .whychooseus-section {
     padding: 130px 0 127px;
   }
@@ -40,9 +37,6 @@
     top: -207px;
     left: -228px;
   }
-  .about-us-section .about-left-back-img {
-    left: -49%;
-  }
 }
 
 @media screen and (max-width: 1750px) {
@@ -55,9 +49,6 @@
   }
   .home-header-section .main-header {
     padding: 26px 230px 24px 280px;
-  }
-  .about-us-section .about-left-back-img {
-    left: -49%;
   }
   .about-us-section::after {
     width: 355px;
@@ -86,15 +77,9 @@
     padding-top: 184px;
     padding-bottom: 213px;
   }
-  .about-us-section .about-left-back-img {
-    left: -62%;
-  }
   .contact-us-form::after {
     right: -145px;
     bottom: -162px;
-  }
-  .contact-us-form .about-left-back-img {
-    left: -55%;
   }
   .whychooseus-section::after {
     width: 445px;
@@ -126,9 +111,6 @@
   .about-us-section::after {
     right: -100px;
     top: -150px;
-  }
-  .about-us-section .about-left-back-img {
-    left: -69%;
   }
   .who-we-are-section:before {
     top: -135px;
@@ -163,9 +145,6 @@
   h1 {
     font-size: 57px;
     line-height: 60px;
-  }
-  .about-us-section .about-left-back-img {
-    left: -91%;
   }
   .about-us-section::after {
     right: -98px;
@@ -281,14 +260,6 @@
     right: -134px;
     top: -240px;
   }
-  .about-us-section .about-left-back-img {
-    left: -141%;
-    top: -471px;
-  }
-  .about-us-section .about-left-back-img {
-    left: -132%;
-    top: -436px;
-  }
   .about-us-section h6 {
     text-align: center;
     margin-bottom: 12px;
@@ -344,10 +315,6 @@
   }
   .who-we-are-section {
     padding: 70px 0 0;
-  }
-  /* contact-form */
-  .contact-us-form .about-left-back-img {
-    left: -138%;
   }
   .contact-us-form {
     padding: 71px 0;
@@ -423,10 +390,6 @@
   }
   .main-header {
     padding: 20px 0 0 0;
-  }
-  .about-us-section .about-left-back-img {
-    left: -192%;
-    top: -497px;
   }
   .about-us-section .about-us-content {
     padding-left: 0;
